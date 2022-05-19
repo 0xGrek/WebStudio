@@ -1,0 +1,72 @@
+.main-menu {
+    display: flex;
+    margin: 24px 215px 0px 215px;
+    justify-content: center;
+   
+   
+}
+.nav {
+    display: flex;
+    
+}
+.nav-menu {
+    display: flex;
+    margin-left: 93px;
+    margin-right: 330px;
+    
+
+}
+.nav-contact {
+    display: flex;
+
+}
+.logo-text {
+    width: 145px;
+    height: 31px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    text-decoration: none;
+    color: #000000;
+
+   
+}
+.font-color-blue {
+    color: #2196F3 ;
+}
+
+
+.nav-margin {
+    text-decoration: none;
+    margin-right: 50px;
+}
+.contact-margin {
+    margin-right:50px ;
+    text-decoration: none;
+}
+.nav-link-studio,
+.nav-link-contact,
+.nav-link-portfolio,
+.contact-margin {
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration: none;
+    color:black ;
+}
+.nav-link-studio {
+    color:#2196F3 ;
+}
+.contact-margin-phone {
+    text-decoration: none;
+    color:#2196F3 ;
+}
+.contact-margin-mail {
+    color:#757575;
+    text-decoration: none;
+}
