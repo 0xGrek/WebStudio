@@ -3,21 +3,17 @@
     margin: 24px 215px 0px 215px;
     justify-content: center;
     width: 1600px;
-  
-   
-   
+ 
 }
 .nav {
     display: flex;
   
-    
 }
 .nav-menu {
     display: flex;
     margin-left: 93px;
     margin-right: 330px;
     
-
 }
 .nav-contact {
     display: flex;
@@ -25,16 +21,12 @@
 }
 .logo-text {
     width: 145px;
-    
-
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     text-decoration: none;
     color: #000000;
-
-   
 }
 .font-color-blue {
     color: #2196F3 ;
