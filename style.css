@@ -1,3 +1,6 @@
+.body {
+    width: 1600px
+}
 .main-menu {
     display: flex;
     margin: 24px 215px 0px 215px;
