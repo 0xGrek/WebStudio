@@ -5,22 +5,18 @@
     margin: 24px 215px 0px 215px;
     width: 1600px;
 
-
 }
 .nav {
     display: flex;
-    
 }
 
 .nav-menu {
     display: flex;
     margin-left: 93px;
     margin-right: 330px;
-    
 }
 .nav-contact {
     display: flex;
-
 }
 .logo-text {
     font-family: 'Raleway';
@@ -35,14 +31,12 @@
 .font-color-blue {
     color: #2196F3 ;
 }
-
 .nav-margin {
     margin-right: 50px;
 }
 .contact-margin {
     margin-right:50px ;
 }
-
 .nav-link-studio,
 .nav-link-contact,
 .nav-link-portfolio {

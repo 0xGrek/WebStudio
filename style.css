@@ -1,96 +1,93 @@
 
+/* Навигация */
 .main-menu {
     display: flex;
     margin: 24px 215px 0px 215px;
-    justify-content: center;
     width: 1600px;
- 
+
 }
 .nav {
     display: flex;
-  
 }
+
 .nav-menu {
     display: flex;
     margin-left: 93px;
     margin-right: 330px;
-    
 }
 .nav-contact {
     display: flex;
-
 }
 .logo-text {
-    width: 145px;
     font-family: 'Raleway';
-  
+    font-style: normal;
     font-weight: 700;
     font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
     text-decoration: none;
     color: #000000;
 }
 .font-color-blue {
     color: #2196F3 ;
 }
-
-
 .nav-margin {
-    text-decoration: none;
     margin-right: 50px;
 }
 .contact-margin {
     margin-right:50px ;
-    text-decoration: none;
 }
 .nav-link-studio,
 .nav-link-contact,
-.nav-link-portfolio,
-.contact-margin {
-
+.nav-link-portfolio {
     font-family: 'Roboto';
-   
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
     text-decoration: none;
     color:black ;
 }
-.nav-link-studio {
-    color:#2196F3 ;
+.nav-link-studio:hover,
+.nav-link-contact:hover,
+.nav-link-portfolio:hover {
+    color: #2196F3;
 }
 .contact-margin-phone {
     text-decoration: none;
-    color:#2196F3 ;
+    color:#757575;
+}
+.contact-margin-phone:hover {
+    color: #007be0;
 }
 .contact-margin-mail {
     color:#757575;
     text-decoration: none;
+}
+.contact-margin-mail:hover {
+    color: #2196F3;
 }
 /* Друга секція */
 .hero {
    background-color: #2F303A ;
    text-align: center;
    width: 1600px;
-    height: 600px;
-
+   height: 600px;
 }
 .hero-title {
     font-family: 'Roboto';
-    
     font-weight: 900;
     font-size: 44px;
-    padding :200px 452px 30px 452px ;
+    padding-top:200px;
     color: #FFFFFF; 
+    text-transform: uppercase;
+    margin-bottom: 40px;
 }
 
 .title-btn {
     font-family: 'Roboto';
-  
     font-weight: 700;
     font-size: 16px;
-    color: #FFFFFF;
-    width: 136px;
-    height: 30px;
+    color: #000000;
+ 
     align-items: center;
     text-align: center;
     
@@ -99,7 +96,10 @@
     border-radius: 4px;
     width: 200px;
     height: 50px;
-
+}
+.title-btn:hover {
+    color: #ffffff;
+    background-color: #2196F3;
 }
  /* 3 секция решение проблем */
  .discription {
@@ -114,15 +114,11 @@
  
  }
  .discription-subtitle {
-   
     width: 270px;
     height: 16px;
-
     font-family: 'Roboto';
-  
     font-weight: 400;
     font-size: 14px;
-
     color: #757575;
  }
 .discription-title{
@@ -145,15 +141,10 @@
    
     text-align: center;
     font-family: 'Roboto';
-
     font-weight: 700;
     font-size: 36px;
     color: #212121;
 
-
-  
-    
-  
 }
 
 .img-about-work {
@@ -174,58 +165,44 @@
     height: 648px;
     background: #F5F4FA;
     margin-top: 95px;
-    
-    
-    
+  
 }
 .h2-text-team {
-  text-align: center;
-  padding-top: 94px;
-  padding-bottom: 50px;
-  font-family: 'Roboto';
-    
+    text-align: center;
+    padding-top: 94px;
+    padding-bottom: 50px;
+    font-family: 'Roboto';
     font-weight: 700;
     font-size: 36px;
     text-align: center;
     letter-spacing: 0.03em;
-
     color: #212121;
-  
 }
 .team-discription {
     display: flex;
     justify-content: center;
-
 }
 .team-discription-name {
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     margin-left: 30px;
-    
-
+ 
 }
 .name-team {
     font-family: 'Roboto';
-  
     font-weight: 500;
     font-size: 16px;
-
-
     text-align: center;
     letter-spacing: 0.03em;
-
     color: #212121;
 }
 .name-team-subtitle {
     font-family: 'Roboto';
-
     font-weight: 400;
     font-size: 16px;
-
     text-align: center;
     letter-spacing: 0.03em;
-
     color: #757575;
 }
 
@@ -235,40 +212,31 @@
     width: 1600px;
 }
 .footer-info {
-    padding: 60px 1154px 60px 215px;
-    width: 2350px;
-
+    padding: 60px;
+    
 }
 .footer-map-city {
     font-family: 'Roboto';
-   
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    /* or 171% */
     text-decoration: none;
     letter-spacing: 0.03em;
-    
     color: #FFFFFF;
-    
 }
 .footer-mail {
     font-family: 'Roboto';
-
-font-weight: 400;
-font-size: 14px;
-letter-spacing: 0.03em;
-color: rgba(255, 255, 255, 0.6);
-text-decoration: none;
-
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
 }
 .footer-number {
     font-family: 'Roboto';
-    
     font-weight: 400;
     font-size: 14px;
     text-decoration: none;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
-    
 }
