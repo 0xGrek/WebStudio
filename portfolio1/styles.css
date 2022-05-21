@@ -143,34 +143,18 @@ text-align: center
     width: 322px;
     height: 30px;
 
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Footer */
 .footer {
     background-color:#2F303A ;
     width: 1600px;
     
+
 }
 .footer-info {
     padding: 60px;
+    
     
 }
 .footer-map-city {
@@ -184,21 +168,14 @@ text-align: center
     text-decoration: none;
     
 }
-.footer-mail {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
-    text-decoration: none;
-}
+.footer-mail,
 .footer-number {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    text-decoration: none;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+   
 }
