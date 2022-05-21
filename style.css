@@ -4,19 +4,23 @@
     display: flex;
     margin: 24px 215px 0px 215px;
     width: 1600px;
+     list-style: none;
 
 }
 .nav {
     display: flex;
+   
 }
 
 .nav-menu {
     display: flex;
     margin-left: 93px;
     margin-right: 330px;
+    list-style: none;
 }
 .nav-contact {
     display: flex;
+    list-style: none;
 }
 .logo-text {
     font-family: 'Raleway';
@@ -51,9 +55,17 @@
 .nav-link-portfolio:hover {
     color: #2196F3;
 }
+
+.nav-contact{
+    font-family: 'Roboto';
+font-weight: 500;
+font-size: 14px;
+letter-spacing: 0.02em;
+}
 .contact-margin-phone {
     text-decoration: none;
     color:#757575;
+    
 }
 .contact-margin-phone:hover {
     color: #007be0;
@@ -104,11 +116,13 @@
  /* 3 секция решение проблем */
  .discription {
   color: #000000;
+  
  }
  .discription-menu {
     display:flex;
     width: 1170px;
     height: 101px;
+    list-style: none;
  }
  .discription-text {
  color: #000;
@@ -136,6 +150,8 @@
 /* 4 Секція фото */
 .work {
     width: 1600px;
+   
+    
 }
 .h2-text-work {
    
@@ -145,14 +161,18 @@
     font-size: 36px;
     color: #212121;
 
+
 }
 
 .img-about-work {
     display: flex;
     justify-content: center;
+    list-style: none;
+    
 }
 .img-software {
     margin-right: 30px;
+    
 }
 .img-testing {
     margin-right: 30px;
@@ -181,6 +201,7 @@
 .team-discription {
     display: flex;
     justify-content: center;
+    list-style: none;
 }
 .team-discription-name {
     background: #FFFFFF;
@@ -193,6 +214,7 @@
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
+    line-height: 19px;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
@@ -201,6 +223,7 @@
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 16px;
+    line-height: 19px;
     text-align: center;
     letter-spacing: 0.03em;
     color: #757575;
@@ -210,6 +233,7 @@
 .footer {
     background-color:#2F303A ;
     width: 1600px;
+    
 }
 .footer-info {
     padding: 60px;
@@ -217,26 +241,22 @@
 }
 .footer-map-city {
     font-family: 'Roboto';
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    text-decoration: none;
     letter-spacing: 0.03em;
     color: #FFFFFF;
-}
-.footer-mail {
-    font-family: 'Roboto';
-    font-weight: 400;
-    font-size: 14px;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
+    
 }
+.footer-mail,
 .footer-number {
     font-family: 'Roboto';
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    text-decoration: none;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
 }
