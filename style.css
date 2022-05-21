@@ -103,7 +103,7 @@
 }
  /* 3 секция решение проблем */
  .discription {
-  
+  color: #000000;
  }
  .discription-menu {
     display:flex;
@@ -111,7 +111,7 @@
     height: 101px;
  }
  .discription-text {
- 
+ color: #000;
  }
  .discription-subtitle {
     width: 270px;
