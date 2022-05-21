@@ -1,71 +1,126 @@
-nav{
-    height:800;
-    width:1600;
+
+/* Навигация */
+.main-menu {
+    display: flex;
+    margin: 24px 215px 0px 215px;
+    justify-content: center;
+    width: 1600px;
+ 
 }
-.logo{
+.nav {
+    display: flex;
+  
+}
+.nav-menu {
+    display: flex;
+    margin-left: 93px;
+    margin-right: 330px;
+    
+}
+.nav-contact {
+    display: flex;
+
+}
+.logo-text {
+    width: 145px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    color: #0e67af;
-    margin: 25px 90px 25px 215px;
-}
-.nav-menu {
-   
-  
-}
-.nav-link {
-    font-family: 'Roboto';
-    font-weight: 500;
-    font-size: 14px;
     text-decoration: none;
-    color: #212121;
+    color: #000000;
+}
+.font-color-blue {
+    color: #2196F3 ;
+}
+
+
+.nav-margin {
+    text-decoration: none;
     margin-right: 50px;
 }
-.nav-link-btn:hover {
-background-color:transparent;
-color: #2196F3;
+.contact-margin {
+    margin-right:50px ;
+    text-decoration: none;
 }
-.phone,
-.mail {
+.nav-link-studio,
+.nav-link-contact,
+.nav-link-portfolio,
+.contact-margin {
+
     font-family: 'Roboto';
+   
     font-weight: 500;
     font-size: 14px;
-    color: #757575;
-    margin-left: 330px;
+    line-height: 16px;
     text-decoration: none;
-    }
-
-.gallery {
-    position: absolute;
-    width: 1170px;
-    height: 1360px;
-    left: 215px;
-    top: 174px;
-    image-rendering: auto;
-
+    color:black ;
 }
-.img-title {
-    position: absolute;
-width: 370px;
-height: 294px;
-left: 215px;
-top: 262px;
+.nav-link-studio {
+    color:#2196F3 ;
 }
-.gallery-btn {
-    font-family: 'Roboto';
-    font-weight: 500;
-    font-size: 16px;
+.contact-margin-phone {
+    text-decoration: none;
+    color:#2196F3 ;
+}
+.contact-margin-mail {
+    color:#757575;
+    text-decoration: none;
+}
+
+/* Галерея */
+.nav-gallery {
+text-align: center;
+display: flex;
+}
+
+.gallery-btn{
+
     
-    text-align: center;
-    color: #ffffff;
-    text-decoration: none;
-    display:inline;
- 
-    padding: 6px 22px 6px 22px;
-
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
+}
+.gallery-btn:hover {
     background: #2196F3;
-    margin-bottom: 50px;
+}
+/* Footer */
+.footer {
+    background-color:#2F303A ;
+    width: 1600px;
+}
+.footer-info {
+    padding: 60px 1154px 60px 215px;
+    width: 2350px;
+
+}
+.footer-map-city {
+    font-family: 'Roboto';
+   
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    
+    color: #FFFFFF;
+    
+}
+.footer-mail {
+    font-family: 'Roboto';
+
+font-weight: 400;
+font-size: 14px;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+text-decoration: none;
+
+}
+.footer-number {
+    font-family: 'Roboto';
+    
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    
 }
