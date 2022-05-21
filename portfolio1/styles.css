@@ -3,14 +3,15 @@
 .main-menu {
     display: flex;
     margin: 24px 215px 0px 215px;
-    justify-content: center;
     width: 1600px;
- 
+
+
 }
 .nav {
     display: flex;
-  
+    
 }
+
 .nav-menu {
     display: flex;
     margin-left: 93px;
@@ -22,11 +23,12 @@
 
 }
 .logo-text {
-    width: 145px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
     text-decoration: none;
     color: #000000;
 }
@@ -34,40 +36,41 @@
     color: #2196F3 ;
 }
 
-
 .nav-margin {
-    text-decoration: none;
     margin-right: 50px;
 }
 .contact-margin {
     margin-right:50px ;
-    text-decoration: none;
 }
+
 .nav-link-studio,
 .nav-link-contact,
-.nav-link-portfolio,
-.contact-margin {
-
+.nav-link-portfolio {
     font-family: 'Roboto';
-   
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
     text-decoration: none;
     color:black ;
 }
-.nav-link-studio {
-    color:#2196F3 ;
+.nav-link-studio:hover,
+.nav-link-contact:hover,
+.nav-link-portfolio:hover {
+    color: #2196F3;
 }
 .contact-margin-phone {
     text-decoration: none;
-    color:#2196F3 ;
+    color:#757575;
+}
+.contact-margin-phone:hover {
+    color: #007be0;
 }
 .contact-margin-mail {
     color:#757575;
     text-decoration: none;
 }
-
+.contact-margin-mail:hover {
+    color: #2196F3;
+}
 /* Галерея */
 .nav-gallery {
 display: flex;
@@ -155,40 +158,31 @@ display: flex;
     width: 1600px;
 }
 .footer-info {
-    padding: 60px 1154px 60px 215px;
-    width: 2350px;
-
+    padding: 60px;
+    
 }
 .footer-map-city {
     font-family: 'Roboto';
-   
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    /* or 171% */
     text-decoration: none;
     letter-spacing: 0.03em;
-    
     color: #FFFFFF;
-    
 }
 .footer-mail {
     font-family: 'Roboto';
-
-font-weight: 400;
-font-size: 14px;
-letter-spacing: 0.03em;
-color: rgba(255, 255, 255, 0.6);
-text-decoration: none;
-
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
 }
 .footer-number {
     font-family: 'Roboto';
-    
     font-weight: 400;
     font-size: 14px;
     text-decoration: none;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
-    
 }
