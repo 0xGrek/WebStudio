@@ -1,6 +1,4 @@
 
-
-
 /* Навигация */
 .main-menu {
     display: flex;
@@ -93,7 +91,11 @@ letter-spacing: 0.02em;
     padding-top:200px;
     color: #FFFFFF; 
     text-transform: uppercase;
-    margin-bottom: 40px;
+    height: 120px;
+    width: 696px;
+    padding-left: 452px;
+    margin-top: 0%;
+
 }
 
 .title-btn {
@@ -103,8 +105,6 @@ letter-spacing: 0.02em;
     color: #000000;
  
     align-items: center;
-    text-align: center;
-    
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -121,7 +121,7 @@ letter-spacing: 0.02em;
   
  }
  .discription-menu {
-    display:flex;
+    display:inline-flex;
     width: 1170px;
     height: 101px;
     list-style: none;
@@ -232,13 +232,15 @@ letter-spacing: 0.02em;
 }
 
 /* Footer */
+ul{list-style: none}
+
 .footer {
     background-color:#2F303A ;
     width: 1600px;
-    
 }
 .footer-info {
     padding: 60px;
+   
     
 }
 .footer-map-city {
@@ -250,7 +252,8 @@ letter-spacing: 0.02em;
     letter-spacing: 0.03em;
     color: #FFFFFF;
     text-decoration: none;
-    
+  
+   
 }
 .footer-mail,
 .footer-number {
@@ -261,4 +264,6 @@ letter-spacing: 0.02em;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
+    list-style: none;
+
 }
