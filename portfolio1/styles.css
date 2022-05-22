@@ -146,6 +146,7 @@ text-align: center
 }
 
 /* Footer */
+ul{list-style: none}
 .footer {
     background-color:#2F303A ;
     width: 1600px;
